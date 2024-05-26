@@ -24,7 +24,8 @@ function atualizarLista (){
 
 }
 
-document.getElementById('nomeInput').addEventListener('keydown', (event) =>{
+document.getElementById('nomeInput').addEventListener('keydown', 
+function(event) {
   if(event.key === 'Enter'){
     adicionarNome();
   }
